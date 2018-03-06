@@ -4,8 +4,9 @@ import com.toring.daggerdemo.module.MainActivityModule;
 import com.toring.daggerdemo.view.MainActivity;
 
 import dagger.Component;
+import dagger.Subcomponent;
 
-@Component(
+@Subcomponent(
         modules = MainActivityModule.class
 )
 public interface MainActivityComponent {
